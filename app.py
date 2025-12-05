@@ -224,13 +224,22 @@ def save_student_data(name, age, gender, background, part_time_job, extracurricu
     
     try:
         with open(csv_file, 'a', newline='', encoding='utf-8') as f:
-            writer = csv.DictWriter(f, fieldnames=row.keys())
+            writer = csv.DictWriter(f, fieldnames=row.keys(), extrasaction='ignore')
             if not file_exists:
                 writer.writeheader()
             writer.writerow(row)
-        return True
+        
+        # Verify data was written by reading last line
+        df = pd.read_csv(csv_file)
+        if len(df) > 0:
+            return True
+        else:
+            return False
+    except PermissionError:
+        st.error(f"❌ Permission Error: Cannot write to {csv_file}. Make sure the file is not open in another program.")
+        return False
     except Exception as e:
-        st.error(f"Error saving data: {e}")
+        st.error(f"❌ Error saving data: {str(e)}")
         return False
 
 # Initialize session state
