@@ -6,14 +6,14 @@ A **Streamlit-based AI-powered career guidance system** that recommends suitable
 
 ## 📋 Features
 
-✅ **Multi-Step Form Interface** - Interactive 9-step wizard for data collection
-✅ **Dynamic Subject Selection** - Different subjects for each academic background (ICS, Pre-Medical, Pre-Engineering, Arts, Commerce)
-✅ **AI-Powered Recommendations** - Machine learning model suggests top 3 career paths with confidence scores
-✅ **Comprehensive Career Guidance** - 15-17 bachelor programs per field tailored to Pakistani education system
-✅ **Data Persistence** - Automatically saves student records to CSV with all information
-✅ **Data Export** - Download all student records as CSV file
-✅ **One-Click Launcher** - `START_APP.bat` for easy application launch
-✅ **Real-Time Calculations** - Auto-computes total and average scores
+- **Multi-Step Form Interface** - Interactive 9-step wizard for data collection
+- **Dynamic Subject Selection** - Different subjects for each academic background (ICS, Pre-Medical, Pre-Engineering, Arts, Commerce)
+- **AI-Powered Recommendations** - Machine learning model suggests top 3 career paths with confidence scores
+- **Comprehensive Career Guidance** - 15-17 bachelor programs per field tailored to Pakistani education system
+- **Data Persistence** - Automatically saves student records to CSV with all information
+- **Data Export** - Download all student records as CSV file
+- **One-Click Launcher** - `START_APP.bat` for easy application launch
+- **Real-Time Calculations** - Auto-computes total and average scores
 
 ---
 
@@ -203,10 +203,20 @@ imbalanced-learn
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Author & Team
 
-**Created for**: Introduction to Data Science (3rd Semester)
-**School**: UET (University of Engineering & Technology)
+**Course**: Introduction to Data Science (3rd Semester)
+**Institution**: UET (University of Engineering & Technology)
+**Project Type**: Group Semester Project (3 Members)
+
+### Team Members
+
+| Registration Number | Student Name |
+|---|---|
+| 24PWDSC0178 | Muhammad Usman Nazir |
+| 24PWDSC0148 | Syed Abdul Muqsit Shah |
+| 24PWDSC0181 | Ihtiram Shahid |
+
 **GitHub**: [@realusmannazir1](https://github.com/realusmannazir1)
 
 ---
